@@ -24,7 +24,7 @@ Copy to ClipboardCopy to Clipboard
 
 It has a DOM tree that looks like this:
 
-![The DOM as a tree-like representation of a document that has a root and node elements containing content]()
+![The DOM as a tree-like representation of a document that has a root and node elements containing content](https://github.com/freelancres/Advanced_JS/blob/main/DOM/using_the_w3c_dom_level_1_core-doctree.jpg)
 
 Although the above tree is similar to the above document's DOM tree, it's not identical, as  the actual DOM tree preserves whitespace.
 
