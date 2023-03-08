@@ -1,0 +1,18 @@
+.box{
+    background-color: red;
+    color: white;
+    padding: 100px 110px;
+    display: block;
+    margin: 5px;
+}
+.off{
+    display: none;
+    /* visibility: hidden; */
+}
+.on{
+    display: block;
+}
+
+.newClass {
+    background-color: aqua;
+}
