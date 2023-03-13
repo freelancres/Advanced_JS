@@ -1,0 +1,12 @@
+.error{
+    background-color: rgba(233,39,14,0.849);
+    color: white;
+    font-weight: 700;
+    width: 350px;
+    height: 50px;
+    padding-top:15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 5px;
+
+}
