@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css">
+    <title>Events Introduction</title>
+  </head>
+  <body>
+    <h1>Events Introduction</h1>
+    <div class="outer">
+        outer, once & none-once
+        <div class="middle" target="_blank">
+            middle, capture & none-capture
+            <a href="https://alsahaba.de/"
+             class="inner1" target="_blank">
+                inner1, passive & preventDefault(which is not allowed)
+            </a>
+              <a href="https://alsahaba.de/"
+             class="inner2" target="_blank">
+                inner2, none-passive & preventDefault(not open new page)
+            </a>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
